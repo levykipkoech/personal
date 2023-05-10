@@ -1,5 +1,4 @@
- 
-import Image from 'next/image'
+import About from './components/About'
 import Main from './components/main'
  import Navbar from './components/navbar'
 
@@ -9,6 +8,7 @@ export default function Home() {
       
        <Navbar/>
        <Main/>
+       <About/>
     </main>
   )
 }
