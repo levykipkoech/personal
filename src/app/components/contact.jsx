@@ -22,10 +22,10 @@ const Contact =()=>{
                             <div>
                                 <h2 className="py-2 ">Levy</h2>
                                 <p>Full stack developer</p>
-                                <p className="py-4">I am available to freelance or full time position. Let's talk</p>
+                                <p className="py-4">I am available to freelance or full time position. let&apos;s talk</p>
                             </div>
                             <div>
-                            <p className="uppercase">contact with me</p>
+                            <p className="uppercase">contact me</p>
                             <div className="flex items-center py-4 ">
                                 <a
                                 href='https://www.linkedin.com/in/levy-kipkoech-21a736269/'
