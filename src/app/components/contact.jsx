@@ -4,7 +4,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {AiOutlineMail} from "react-icons/ai"
 import {HiOutlineChevronDoubleUp} from "react-icons/hi" 
 import Link from "next/link";
-
+import setupImg from "./setup.jpg"
+import Image from "next/image";
 const Contact =()=>{
 
     return (
@@ -15,30 +16,56 @@ const Contact =()=>{
                 <div className="grid lg:grid-cols-5 gap-8 ">
                     <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-g h-full">
-                            <div>
-                                <img className="rounded-xl hover:scale-105 ease-in duration-300" src="" alt="/"/>
+                            <div className="mx-w-[1240px]">
+                                <Image className="rounded-xl object-cover h-48  hover:scale-105  ease-in duration-300" src={setupImg} alt="/"/>
                             </div>
                             <div>
-                                <h2 className="py-2 ">Name here</h2>
+                                <h2 className="py-2 ">Levy</h2>
                                 <p>Full stack developer</p>
                                 <p className="py-4">I am available to freelance or full time position. Let's talk</p>
                             </div>
                             <div>
                             <p className="uppercase">contact with me</p>
                             <div className="flex items-center py-4 ">
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                                <a
+                                href='https://www.linkedin.com/in/levy-kipkoech-21a736269/'
+                                target='_blank'
+                                rel='noreferrer'
+                                >
+                                <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <FaLinkedinIn/>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                                </a>
+                               <a 
+                               href='https://github.com/levykipkoech'
+                               target='_blank'
+                               rel='noreferrer'
+                               >
+                               <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <FaGithub/>
                                 </div>
+                               </a>
                                 
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                               <a
+                                 href='mailto:kipkoechlevy096@gmail.com'
+                                 target='_blank'
+                                 rel='noreferrer'
+                               >
+                               <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <AiOutlineMail/>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <BsFillPersonLinesFill/>
+                               </a>
+
+                               <a
+                                 href='phoneto:0115483048'
+                                 target='_blank'
+                                 rel='noreferrer'
+                               >
+                                <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <BsFillPersonLinesFill/>
                                 </div>
+                               </a>
+                                
                             </div>
                         </div>
                         </div>

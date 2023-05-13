@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ProjectTitle from "./projecttitle";
+import childrenImg from "./children.jpg"
+import shopImg from "./shop.jpg"
 
 const Projects = ()=>{
     return(
@@ -9,9 +11,9 @@ const Projects = ()=>{
             <div className="mx-w-[1240px] mx-auto px-2 py-16">
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">Projects</p>
                 <h2 className="py-4">What I've Built</h2>
-                <div classname="grid md:grid-cols-2 gap-8 ">
-                   <ProjectTitle title="" backgroundImg="" projectUrl=""/>
-                   <ProjectTitle title="" backgroundImg="" projectUrl=""/>
+                <div className="grid md:grid-cols-2 gap-8 ">
+                   <ProjectTitle title="children's home" backgroundImg={childrenImg} projectUrl="https://childrens-home-app.vercel.app/login"/>
+                   <ProjectTitle title="online shop" backgroundImg={shopImg} projectUrl="https://phase-4-project-ten.vercel.app/signup"/>
 
                 </div>
             </div>

@@ -11,8 +11,8 @@ const About =()=> {
                     <p className="py-2 text-gray-600">and here</p>
                     <p className="py-2 text-gray-600 underline cursor-pointer" >amd here</p>
                 </div>
-                <div className="w-full h-auto m-auto shadoy-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                    <img className="rounded-xl" src="" alt=""/>
+                <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300">
+                    <img className="rounded-xl object-cover h-48 w-96 " src="https://i.pinimg.com/originals/f4/53/9b/f4539beb3f31966094fce9f98ebd997e.jpg" alt="/"/>
                 </div>
             </div>
         </div>
