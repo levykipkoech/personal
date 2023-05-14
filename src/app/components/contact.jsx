@@ -1,7 +1,8 @@
 import React from "react";
 import {FaGithub, FaLinkedinIn} from "react-icons/fa";
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {AiOutlineMail} from "react-icons/ai"
+import {SiWhatsapp} from "react-icons/si"
 import {HiOutlineChevronDoubleUp} from "react-icons/hi" 
 import Link from "next/link";
 import setupImg from "./setup.jpg"
@@ -25,7 +26,7 @@ const Contact =()=>{
                                 <p className="py-4">I am available to freelance or full time position. let&apos;s talk</p>
                             </div>
                             <div>
-                            <p className="uppercase">contact me</p>
+                            <p className="uppercase">contact me: 0115483048</p>
                             <div className="flex items-center py-4 ">
                                 <a
                                 href='https://www.linkedin.com/in/levy-kipkoech-21a736269/'
@@ -57,12 +58,12 @@ const Contact =()=>{
                                </a>
 
                                <a
-                                 href='phoneto:0115483048'
+                                 href='https://wa.me/qr/UI5MFXWWWIT3K1'
                                  target='_blank'
                                  rel='noreferrer'
                                >
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <BsFillPersonLinesFill/>
+                                        <SiWhatsapp/>
                                 </div>
                                </a>
                                 

@@ -5,7 +5,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from "react-icons/ai"
 import {FaGithub, FaLinkedinIn} from "react-icons/fa";
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
+import {SiWhatsapp} from "react-icons/si"
 import cover from "./cover.png"
 
 const Navbar =()=>{
@@ -145,12 +146,12 @@ const Navbar =()=>{
                                 </div> 
                             </a>
                             <a 
-                              href='phoneto:0115483048'
+                              href='https://wa.me/qr/UI5MFXWWWIT3K1'
                               target='_blank'
                               rel='noreferrer'
                             >
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in diration-100">
-                                <BsFillPersonLinesFill />
+                                <SiWhatsapp/>
                                 </div>
                             </a>
                         </div>
