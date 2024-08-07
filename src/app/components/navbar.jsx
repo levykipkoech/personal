@@ -36,7 +36,7 @@ const Navbar = () => {
       }
     >
       <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16 rounded-lg bg-[#d7e8f4]">
-        <Link href="/">
+        <Link href="/#main">
           <Image src={cover} alt="/" height="125" width="50" />
         </Link>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
+              <Link href="/#main">
                 <Image src={cover} alt="" width="87" height="35" />
               </Link>
               <div
