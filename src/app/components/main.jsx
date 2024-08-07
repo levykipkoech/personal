@@ -54,7 +54,7 @@ const Main = () => {
             </a>
 
             <a
-              href="https://wa.me/qr/UI5MFXWWWIT3K1"
+              href="https://wa.me/254115483048"
               target="_blank"
               rel="noreferrer"
             >
