@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import ProjectTitle from './projecttitle';
-import childrenImg from './children.jpg';
-import shopImg from './shop.jpg';
-
-const Projects = () => {
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import ProjectTitle from "./projecttitle";
+import moodapp from "../../utils/moodapp.png";
+import emmax from "../../utils/emmax.png";
+export default function Projects() {
   return (
     <div id="projects" className="w-full">
       <div className="mx-w-[1240px] mx-auto px-2 py-16">
@@ -15,19 +14,17 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectTitle
-            title="children's home"
-            backgroundImg={childrenImg}
-            projectUrl="https://childrens-home-app.vercel.app/login"
+            title="mood tracker"
+            backgroundImg={moodapp}
+            projectUrl="https://moodapp-phi.vercel.app/"
           />
           <ProjectTitle
-            title="online shop"
-            backgroundImg={shopImg}
-            projectUrl="https://phase-4-project-ten.vercel.app/signup"
+            title="Inventory Manager"
+            backgroundImg={emmax}
+            projectUrl="https://emmax.vercel.app/login"
           />
         </div>
       </div>
     </div>
   );
-};
-
-export default Projects;
+}

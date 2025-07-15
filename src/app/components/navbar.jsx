@@ -1,13 +1,13 @@
-'use client';
-import Link from 'next/link';
-import Image from 'next/image';
-import React from 'react';
-import { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import React from "react";
+import { useState, useEffect } from "react";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { SiWhatsapp } from 'react-icons/si';
-import cover from './cover.png';
+import { SiWhatsapp } from "react-icons/si";
+import cover from "../../utils/cover.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -21,7 +21,8 @@ const Navbar = () => {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener("scroll", handleShadow);
+    console.log(handleShadow);
   }, []);
 
   const handleNav = () => {
@@ -31,28 +32,38 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100]'
-          : 'fixed w-full h-20 z-[100]'
+          ? "fixed w-full  h-fit shadow-xl shadow-gray-500 z-[100] bg-black"
+          : "fixed w-full h-fit items-center z-[100] bg-black"
       }
     >
-      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16 rounded-lg bg-[#d7e8f4]">
+      <div className=" flex justify-between items-center p-3">
         <Link href="/#main">
-          <Image src={cover} alt="/" height="125" width="50" />
+          <Image
+            className="rounded-3xl"
+            src={cover}
+            alt="/"
+            height="150"
+            width="100"
+          />
         </Link>
 
         <div>
           <ul className="hidden md:flex">
             <Link href="/#main">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:underline">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:underline ">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:underline ">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:underline ">
                 Projects
               </li>
             </Link>
@@ -60,7 +71,7 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
             </Link> */}
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:underline ">
                 Contact
               </li>
             </Link>
@@ -73,24 +84,30 @@ const Navbar = () => {
       </div>
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         <div
           className={
             nav
-              ? 'fixed left-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              ? "fixed left-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black ease-in duration-500"
+              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/#main">
-                <Image src={cover} alt="" width="87" height="35" />
+              <Link className="rounded-md" href="/#main">
+                <Image
+                  className="rounded-2xl p-2"
+                  src={cover}
+                  alt="logo"
+                  width="120"
+                  height="75"
+                />
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 m-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-800 p-3 m-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -100,30 +117,45 @@ const Navbar = () => {
               <p className="w-[85%] md:w-[90%] p-4">Time to build</p>
             </div>
           </div>
-          <div className="p-4 flex flex-col">
-            <ul className="uppercase">
+          <div className="p-4 flex flex-col ">
+            <ul className="uppercase ">
               <Link href="/#main">
-                <li onClick={() => setNav(false)} className="p-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="p-4 text-sm hover hover:underline"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="p-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="p-4 text-sm hover:underline "
+                >
                   About
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="p-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="p-4 text-sm hover:underline "
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="p-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="p-4 text-sm hover:underline "
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="p-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="p-4 text-sm hover:underline "
+                >
                   Contact
                 </li>
               </Link>
