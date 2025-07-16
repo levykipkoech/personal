@@ -17,7 +17,7 @@ export default function Skills() {
         </p>
         <h2 className="py-4">what I can do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ml-4">
-          <div className="group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-orange-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-right intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-orange-400 hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={htmlImg}
@@ -30,7 +30,7 @@ export default function Skills() {
             </h3>
           </div>
 
-          <div className="group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#2965f1] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-down intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#2965f1] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={cssImg}
@@ -43,7 +43,7 @@ export default function Skills() {
               CSS
             </h3>
           </div>
-          <div className="group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-yellow-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-yellow-400 hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={javascriptImg}
@@ -56,7 +56,7 @@ export default function Skills() {
               Javascript
             </h3>
           </div>
-          <div className="group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#82acf0] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-right intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#82acf0] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={tailwindImg}
@@ -65,11 +65,11 @@ export default function Skills() {
               height="64"
             />
 
-            <h3 className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 text-[#3B71CA]">
+            <h3 className=" max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 text-[#3B71CA]">
               Tailwind
             </h3>
           </div>
-          <div className=" group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#61DAFB] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-up intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-[#61DAFB] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={reactImg}
@@ -83,7 +83,7 @@ export default function Skills() {
             </h3>
           </div>
 
-          <div className="group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-gray-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-[2s] group flex items-center p-3 shadow-xl rounded-xl  hover:shadow-gray-400 hover:scale-95 ease-in duration-300 ">
             <Image
               src={nextImg}
               alt="next js logo"
@@ -92,7 +92,7 @@ export default function Skills() {
               className="bg-white m-auto"
             />
 
-            <h3 className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300">
+            <h3 className=" max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300">
               Nextjs
             </h3>
           </div>

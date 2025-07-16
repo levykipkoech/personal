@@ -25,15 +25,15 @@ export default function Contact() {
           />
         </div>
         <div className="text-center">
-          <h2 className="py-2 ">Levy</h2>
+          <h2 className="p-2 ">Levy</h2>
           <p>Web developer</p>
-          <p className="py-4">
-            I am available to freelance or full time position. let&apos;s talk
+          <p className="p-2">
+            I am available to freelance or full time position.<span className=" motion-preset-typewriter-[10] "> let&apos;s talk</span>
           </p>
         </div>
 
         {/* <p className="uppercase">contact me:kipkoechlevy096@gmail.com</p> */}
-        <div className="flex items-center justify-between m-auto py-4">
+        <div className="flex items-center justify-between m-auto p-2">
           <a
             href="https://www.linkedin.com/in/levy-kipkoech-21a736269/"
             target="_blank"
@@ -77,7 +77,7 @@ export default function Contact() {
 
       <div className="flex justify-center py-12">
         <Link href="/#main">
-          <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+          <div className="rounded-full intersect:motion-preset-pulse shadow-lg hover:shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
             <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
           </div>
         </Link>

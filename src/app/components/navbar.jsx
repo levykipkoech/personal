@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className=" flex justify-between items-center p-3">
         <Link href="/#main">
           <Image
-            className="rounded-3xl"
+            className="rounded-3xl motion-preset-seesaw "
             src={cover}
             alt="/"
             height="150"

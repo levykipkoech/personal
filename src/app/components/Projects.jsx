@@ -13,16 +13,20 @@ export default function Projects() {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 ">
-          <ProjectTitle
-            title="mood tracker"
-            backgroundImg={moodapp}
-            projectUrl="https://moodapp-phi.vercel.app/"
-          />
-          <ProjectTitle
-            title="Inventory Manager"
-            backgroundImg={emmax}
-            projectUrl="https://emmax.vercel.app/login"
-          />
+          <div className="intersect:motion-preset-slide-right intersect:motion-duration-[2s]">
+            <ProjectTitle
+              title="mood tracker"
+              backgroundImg={moodapp}
+              projectUrl="https://moodapp-phi.vercel.app/"
+            />
+          </div>
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-[2s]">
+            <ProjectTitle
+              title="Inventory Manager"
+              backgroundImg={emmax}
+              projectUrl="https://emmax.vercel.app/login"
+            />
+          </div>
         </div>
       </div>
     </div>
