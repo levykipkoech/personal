@@ -39,7 +39,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
               <FaLinkedinIn />
             </div>
           </a>
@@ -48,7 +48,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
               <FaGithub />
             </div>
           </a>
@@ -58,7 +58,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
               <AiOutlineMail />
             </div>
           </a>
@@ -68,7 +68,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-105 ease-in duration-300">
               <SiWhatsapp />
             </div>
           </a>
@@ -77,7 +77,7 @@ export default function Contact() {
 
       <div className="flex justify-center py-12">
         <Link href="/#main">
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+          <div className="rounded-full shadow-lg hover:shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
             <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
           </div>
         </Link>

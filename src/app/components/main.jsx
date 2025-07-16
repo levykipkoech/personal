@@ -17,7 +17,7 @@ export default function Main() {
         Hey I&apos;m <span className="text-[#5651e5]">Levy</span>
       </h1>
       <h1 className="py-2 ">A web developer</h1>
-      <p className="py-4 max-w-[70%] m-auto ">
+      <p className="py-4 max-w-[70%] m-auto motion-preset-slide-right  ">
         I am software engineer graduate with passion for software engineering. I
         am seeking a software engineering position that will allow me to apply
         my skills and knowledge to contribute to the development of cutting edge
