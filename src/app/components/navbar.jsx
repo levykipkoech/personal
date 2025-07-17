@@ -94,7 +94,7 @@ const Navbar = () => {
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
-          <div>
+          
             <div className="flex w-full items-center justify-between">
               <Link className="rounded-md" href="/#main">
                 <Image
@@ -116,7 +116,7 @@ const Navbar = () => {
             <div className="border-b border-gray-300 m-4 ">
               <p className="w-[85%] md:w-[90%] p-4">Time to build</p>
             </div>
-          </div>
+          
           <div className="p-4 flex flex-col ">
             <ul className="uppercase ">
               <Link href="/#main">
@@ -160,7 +160,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="mb-20">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 let&apos;s connect
               </p>
