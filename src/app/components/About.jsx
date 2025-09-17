@@ -18,11 +18,7 @@ export default function About() {
             me get to this field and thrive
           </p>
           <p className="py-2 intersect:motion-preset-slide-left intersect:motion-duration-[2s] ">
-            Aside from software I&apos;m into basketball. I find the game
-            interesting and good for exercising, after all all work and no
-            play... When it&apos;s not about the game I&apos;m drawing. Art has
-            always been my mate. I&apos;m good at drawing. Safe to say I&apos;m
-            talented in it.{" "}
+            I have knowledge in MEAN stack: Mongodb, Express, Angular, Node and MERN stack: Mongodb Express, React, Node stacks.
           </p>
           <p className="py-2  cursor-pointer intersect:motion-preset-slide-up intersect:motion-duration-[3s]">
             Hit me up and I will be more than glad to share more about me

@@ -7,6 +7,7 @@ import javascriptImg from "../../utils/javascript.png";
 import nextImg from "../../utils/nextjs.png";
 import reactImg from "../../utils/react.png";
 import tailwindImg from "../../utils/tailwind.png";
+import angular from "../../utils/angular.jpeg"
 
 export default function Skills() {
   return (
@@ -15,9 +16,9 @@ export default function Skills() {
         <p className="text-xl tracking-widest uppercase text-[#5651e5] ">
           skills
         </p>
-        <h2 className="py-4">what I can do</h2>
+        <h2 className="py-4">Technologies</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ml-4">
-          <div className="intersect:motion-preset-slide-right intersect:motion-duration-500 group flex items-center p-3 shadow-xl rounded-xl intersect:shadow-orange-400 hover:shadow-orange-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-right intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-orange-400 hover:shadow-orange-400 hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={htmlImg}
@@ -30,7 +31,7 @@ export default function Skills() {
             </h3>
           </div>
 
-          <div className="intersect:motion-preset-slide-down intersect:motion-duration-500 group flex items-center p-3 shadow-xl rounded-xl intersect:shadow-[#2965f1] md:hover:shadow-[#2965f1] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-down intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-[#2965f1] md:hover:shadow-[#2965f1] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={cssImg}
@@ -43,7 +44,7 @@ export default function Skills() {
               CSS
             </h3>
           </div>
-          <div className="intersect:motion-preset-slide-left intersect:motion-duration-500 group flex items-center p-3 shadow-xl rounded-xl intersect:shadow-yellow-400 md:hover:shadow-yellow-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-yellow-400 md:hover:shadow-yellow-400 hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={javascriptImg}
@@ -56,7 +57,7 @@ export default function Skills() {
               Javascript
             </h3>
           </div>
-          <div className="intersect:motion-preset-slide-right intersect:motion-duration-500 group flex items-center p-3 shadow-xl rounded-xl shadow-[#82acf0] md:hover:shadow-[#82acf0] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-right intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl shadow-[#82acf0] md:hover:shadow-[#82acf0] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={tailwindImg}
@@ -69,7 +70,7 @@ export default function Skills() {
               Tailwind
             </h3>
           </div>
-          <div className="intersect:motion-preset-slide-up intersect:motion-duration-500 group flex items-center p-3 shadow-xl rounded-xl intersect:shadow-[#61DAFB] md:hover:shadow-[#61DAFB] hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-up intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-[#61DAFB] md:hover:shadow-[#61DAFB] hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={reactImg}
@@ -83,7 +84,7 @@ export default function Skills() {
             </h3>
           </div>
 
-          <div className="intersect:motion-preset-slide-left intersect:motion-duration-600 group flex items-center p-3 shadow-xl rounded-xl intersect:shadow-gray-400 md:hover:shadow-gray-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-600 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-gray-400 md:hover:shadow-gray-400 hover:scale-95 ease-in duration-300 ">
             <Image
               src={nextImg}
               alt="next js logo"
@@ -94,6 +95,19 @@ export default function Skills() {
 
             <h3 className=" max-h-0 md:overflow-hidden md:group-hover:max-h-40 transition-all duration-300">
               Nextjs
+            </h3>
+          </div>
+          <div className="intersect:motion-preset-slide-left intersect:motion-duration-600 group flex items-center p-3 shadow-sm rounded-full intersect:shadow-red-400 md:hover:shadow-red-400 hover:scale-95 ease-in duration-300 ">
+            <Image
+              src={angular}
+              alt="angular logo"
+              width="70"
+              height="70"
+              className="bg-red-400 m-auto"
+            />
+
+            <h3 className="text-red-400 max-h-0 md:overflow-hidden md:group-hover:max-h-40 transition-all duration-300">
+              Angular
             </h3>
           </div>
         </div>
