@@ -7,7 +7,7 @@ import javascriptImg from "../../utils/javascript.png";
 import nextImg from "../../utils/nextjs.png";
 import reactImg from "../../utils/react.png";
 import tailwindImg from "../../utils/tailwind.png";
-import angular from "../../utils/angular.jpeg"
+import angular from "../../utils/angular.jpeg";
 
 export default function Skills() {
   return (
@@ -97,16 +97,16 @@ export default function Skills() {
               Nextjs
             </h3>
           </div>
-          <div className="intersect:motion-preset-slide-left intersect:motion-duration-600 group flex items-center p-3 shadow-sm rounded-full intersect:shadow-red-400 md:hover:shadow-red-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-up intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-red-400 md:hover:shadow-red-400 hover:scale-95 ease-in duration-300 ">
             <Image
+              className="m-auto"
               src={angular}
-              alt="angular logo"
-              width="70"
-              height="70"
-              className="bg-red-400 m-auto"
+              alt="react logo"
+              width="64"
+              height="64"
             />
 
-            <h3 className="text-red-400 max-h-0 md:overflow-hidden md:group-hover:max-h-40 transition-all duration-300">
+            <h3 className="max-h-0 md:overflow-hidden group-hover:max-h-40 transition-all duration-300 text-[#ef3737]">
               Angular
             </h3>
           </div>
