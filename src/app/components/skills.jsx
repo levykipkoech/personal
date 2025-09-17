@@ -7,7 +7,7 @@ import javascriptImg from "../../utils/javascript.png";
 import nextImg from "../../utils/nextjs.png";
 import reactImg from "../../utils/react.png";
 import tailwindImg from "../../utils/tailwind.png";
-import angular from "../../utils/angular.jpeg";
+import angular from "../../utils/angular.png";
 
 export default function Skills() {
   return (
