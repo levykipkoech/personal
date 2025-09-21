@@ -11,16 +11,16 @@ export default function About() {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 intersect:motion-preset-slide-right intersect:motion-duration-[1s]">
-            Growing up I have always admired technology and it has always been
-            my goal to someday work in the industry. I have been pushing towards
-            my goal and I recently graduated from a bootcamp with a certificate
-            in software development. I have aquired the skills necessary to help
-            me get to this field and thrive
+            I have always admired technology and it has always been
+            my goal to someday work in the industry. I worked hard to push towards
+            my goal and I eventually graduated from a bootcamp with a certificate
+            in software engineering. I have aquired the skills necessary to help
+            me get to this field and thrive.
           </p>
-          <p className="py-2 intersect:motion-preset-slide-left intersect:motion-duration-[2s] ">
-            I have knowledge in MEAN stack: Mongodb, Express, Angular, Node and MERN stack: Mongodb Express, React, Node stacks.
+          <p className="py-2 intersect:motion-preset-slide-left intersect:motion-duration-[1s] ">
+            During and after my coursework I have gathered knowledge in MEAN stack: Mongodb, Express.js, Angular, Node.js and MERN stack: Mongodb, Express, React, Node.js.
           </p>
-          <p className="py-2  cursor-pointer intersect:motion-preset-slide-up intersect:motion-duration-[3s]">
+          <p className="py-2  cursor-pointer intersect:motion-preset-slide-up intersect:motion-duration-[1s]">
             Hit me up and I will be more than glad to share more about me
           </p>
         </div>

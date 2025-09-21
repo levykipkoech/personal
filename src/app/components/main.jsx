@@ -14,11 +14,11 @@ export default function Main() {
         Hey I&apos;m <span className="text-[#5651e5] ">Levy</span>
       </h1>
       <h1 className="py-2 intersect:motion-translate-y-in-100 intersect:motion-blur-in-md">
-        A web developer
+        A full stack developer
       </h1>
-      <p className="py-4 max-w-[70%] m-auto intersect:motion-preset-slide-right intersect:motion-duration-[2s] ">
+      <p className="py-4 max-w-[70%] m-auto intersect:motion-preset-slide-right intersect:motion-duration-[1s] ">
         I am software engineer graduate with passion for software engineering. I
-        am seeking a web developer position that will allow me to apply my
+        am seeking a full stack developer position that will allow me to apply my
         skills and knowledge to contribute to the development of cutting edge
         software solutions. I am a quick learner, detail-oriented, and committed
         to delivering high-quality code.

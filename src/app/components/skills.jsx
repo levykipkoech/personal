@@ -97,7 +97,7 @@ export default function Skills() {
               Nextjs
             </h3>
           </div>
-          <div className="intersect:motion-preset-slide-up intersect:motion-duration-500 group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-red-400 md:hover:shadow-red-400 hover:scale-95 ease-in duration-300 ">
+          <div className="intersect:motion-preset-slide-up intersect:motion-blur- group flex items-center p-3 shadow-sm rounded-xl intersect:shadow-red-400 md:hover:shadow-red-400 hover:scale-95 ease-in duration-300 ">
             <Image
               className="m-auto"
               src={angular}
